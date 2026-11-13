@@ -1,0 +1,7 @@
+interface:
+  display_name: "Quack: translation QA"
+  short_description: "Review a translation against its source and report what to fix"
+  default_prompt: "QA this translation against its source. Source: <path or paste>. Target: <path or paste>. Languages: <source locale> to <target locale>. Audience and purpose: <who reads it and why>. References: <glossary, style guide, length limits, or none>."
+
+policy:
+  allow_implicit_invocation: true
